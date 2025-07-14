@@ -86,3 +86,33 @@ h1, h2, h3 {
     background: url('padrao-miami.png') no-repeat right center;
     background-size: contain;
 }
+
+/* Estilos para a página de elenco */
+#elenco {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.jogador {
+    background-color: var(--branco);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.jogador:hover {
+    transform: translateY(-5px);
+}
+
+.foto-jogador {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--rosa-miami);
+    margin-bottom: 10px;
+}
