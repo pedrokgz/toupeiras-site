@@ -1,0 +1,88 @@
+
+:root {
+    --rosa-miami: #FF005C;    
+    --preto-miami: #000000;   
+    --cinza-miami: #F0F0F0;   
+    --branco: #FFFFFF;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cinza-miami);
+    color: var(--preto-miami);
+}
+
+
+header {
+    background: linear-gradient(135deg, var(--rosa-miami), #FF4D8D);
+    color: var(--branco);
+    text-align: center;
+    padding: 25px 0;
+    box-shadow: 0 4px 12px rgba(255, 0, 92, 0.3);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.5));
+}
+
+
+nav {
+    background-color: var(--preto-miami);
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a {
+    color: var(--branco);
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    color: var(--rosa-miami);
+    text-shadow: 0 0 8px rgba(255, 0, 92, 0.7);
+}
+
+/* Seções modernas */
+section {
+    padding: 25px;
+    max-width: 800px;
+    margin: 25px auto;
+    background-color: var(--branco);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid var(--rosa-miami);
+}
+
+/* Footer estilizado */
+footer {
+    background-color: var(--preto-miami);
+    color: var(--branco);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Efeitos Miami */
+h1, h2, h3 {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#home {
+    background: url('padrao-miami.png') no-repeat right center;
+    background-size: contain;
+}
