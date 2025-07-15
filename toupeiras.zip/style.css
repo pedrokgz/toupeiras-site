@@ -142,4 +142,44 @@ nav a.ativo {
 .tabela-jogos tbody tr:hover {
   background-color: #ffe5ed;
 }
+.card-jogo {
+  background-color: var(--branco);
+  padding: 16px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 6px solid var(--rosa-miami);
+  transition: transform 0.2s ease;
+}
 
+.card-jogo:hover {
+  transform: scale(1.02);
+}
+
+.info-jogo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.data-jogo {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: var(--rosa-miami);
+  min-width: 60px;
+}
+
+.detalhes {
+  flex: 1;
+}
+
+.placar {
+  font-weight: bold;
+  color: var(--preto-miami);
+  font-size: 1em;
+  text-align: right;
+}
