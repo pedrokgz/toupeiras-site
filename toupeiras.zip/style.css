@@ -183,3 +183,27 @@ nav a.ativo {
   font-size: 1em;
   text-align: right;
 }
+.redes-sociais {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.botao-instagram {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--rosa-miami);
+  color: var(--branco);
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+  box-shadow: 0 3px 10px rgba(255, 0, 92, 0.3);
+  transition: all 0.3s ease;
+}
+
+.botao-instagram:hover {
+  background-color: #e0004e;
+  box-shadow: 0 4px 14px rgba(255, 0, 92, 0.5);
+}
