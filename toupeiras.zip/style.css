@@ -116,3 +116,30 @@ h1, h2, h3 {
     border: 3px solid var(--rosa-miami);
     margin-bottom: 10px;
 }
+/* Aba ativa no menu */
+nav a.ativo {
+  color: var(--rosa-miami);
+  border-bottom: 3px solid var(--rosa-miami);
+}
+
+/* Estilo da tabela de jogos */
+.tabela-jogos {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.tabela-jogos th, .tabela-jogos td {
+  padding: 12px;
+  text-align: center;
+}
+.tabela-jogos thead {
+  background-color: var(--preto-miami);
+  color: var(--branco);
+}
+.tabela-jogos tbody tr:nth-child(even) {
+  background-color: var(--cinza-miami);
+}
+.tabela-jogos tbody tr:hover {
+  background-color: #ffe5ed;
+}
+
